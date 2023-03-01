@@ -1,0 +1,53 @@
+header {
+    .container {
+        justify-content: space-around;
+        align-items: center;
+
+        padding: 1rem;
+        background-color: white;
+
+        nav {
+            display: flex;
+            flex-direction: row;
+
+            li {
+                color: black;
+
+                a {
+                    color: black;
+                    margin-right: 1rem;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: $dc_blue;
+                        border-bottom: 5px solid $dc_blue;
+                        padding-bottom: 3rem;
+                    }
+                }
+            }
+        }
+
+        .search {
+            border-bottom: 2px solid $dc_blue;
+            display: flex;
+
+            .searchbar {
+                width: 5rem;
+                border: none;
+                text-align: end;
+            }
+
+            button {
+                border: none;
+                background-color: transparent;
+                cursor: pointer;
+                font-size: 15px;
+                margin-left: 0.3rem;
+
+                &:hover {
+                    color: grey;
+                }
+            }
+        }
+    }
+}
