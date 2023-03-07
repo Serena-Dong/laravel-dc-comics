@@ -1,0 +1,35 @@
+#specific-card {
+    .container {
+        width: 800px;
+    }
+
+    h1,
+    h2,
+    p {
+        margin-bottom: 2rem;
+    }
+
+    .comic-header {
+        margin-bottom: 2rem;
+
+        img {
+            width: 100px;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+
+    .comic-main {
+        margin-bottom: 2rem;
+    }
+
+    .comic-footer {
+        background-color: rgb(230, 230, 230);
+
+        .row {
+            .col {
+                width: calc(100%/2);
+            }
+        }
+    }
+}

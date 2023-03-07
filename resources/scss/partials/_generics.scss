@@ -10,10 +10,13 @@ body {
 }
 
 .container {
-    display: flex;
 
     margin: 0 auto;
     width: 1200px;
+}
+
+.row {
+    display: flex;
 }
 
 a {
